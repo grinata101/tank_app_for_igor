@@ -1,0 +1,425 @@
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* уравнивание шрифтов на разных устройствах */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  /* box-sizing: border-box; */
+}
+
+/* наследование шрифта */
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+/* убирают особ в разных браузерах */
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h6 h5 h4 h3 h2 h1 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #4c5767;
+}
+
+h4 {
+  color: #424c5e;
+}
+
+p {
+  color: #515c71;
+}
+
+.header_menu_all {
+  display: flex;
+  background-color: white;
+  margin: 0 95px 0px 95px;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.nav {
+  display: flex;
+  font-size: 16px;
+}
+
+.nav__menu {
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 0 0px 0 25px;
+  color: #79818d;
+  transition: 0.2s linear;
+}
+
+.nav__menu:hover {
+  color: #4d99cf;
+}
+
+.baner {
+  background-color: #65a9d8;
+  height: 661px
+}
+
+h1.baner_title_h1,
+#baner_title_p,
+.b_form {
+  color: #ffff;
+}
+
+.baner_title_h1 {
+  text-transform: uppercase;
+  position: absolute;
+  padding: 139px 0 0 135px;
+  font-size: 55px;
+  line-height: initial;
+}
+
+#baner_title_p {
+  position: absolute;
+  padding: 316px 0 0 138px;
+  font-size: 23px;
+}
+
+.baner_text {
+  position: absolute;
+  padding: 408px 0 0 138px;
+  font-size: 20px;
+}
+
+.b_form {
+  padding: 0 0 30px 0;
+  font-size: 20px;
+}
+
+#email {
+  border-style: none;
+  border-radius: 5px;
+  padding: 8px 54px;
+  font-size: 15px;
+  line-height: 2;
+  margin: 0px 42px 0 0;
+}
+
+#submit {
+  color: white;
+  background-color: #77c344;
+  padding: 5px 40px 10px 40px;
+  border-radius: 5px;
+  border-style: none;
+  font-size: 23px;
+}
+
+.phone {
+  height: 820px;
+  position: absolute;
+  padding: 37px 0px 0 392px;
+      z-index: 1;
+}
+
+.cloud1 {
+  height: auto;
+  width: 65px;
+  margin: 81px;
+  position: absolute;
+}
+
+.cloud2 {
+  height: auto;
+  width: 45px;
+  position: absolute;
+  top: 150px;
+  left: 85%;
+}
+
+.cloud3 {
+  height: auto;
+  width: 65px;
+  opacity: 0.7;
+  background-position: right top;
+  position: absolute;
+  top: 305px;
+  left: 85%;
+}
+
+
+.cloud4 {
+  height: auto;
+  width: 35px;
+  margin: 591px 0px 0 179px;
+  position: absolute;
+}
+
+.clients {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  background-color: #efefef;
+}
+
+.client {
+  padding: 15px;
+}
+
+.why_are_we_h2 {
+  text-align: center;
+  padding: 62px 0 62px 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.small_pikcher {
+  display: flex;
+  align-items: center;
+  padding: 20px 0 0 50px;
+}
+
+.pikcher_name {
+  padding: 0 0 0 20px;
+}
+
+.why_are_we_p {
+  padding-left: 40px;
+  text-align: justify;
+  line-height: 20px;
+  max-width: 50%;
+}
+
+.why_are_we_p:not(:last-child) {
+  padding-bottom: 10px;
+}
+
+.div_notebook {
+  position: relative;
+}
+
+.notebook {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: -605px;
+}
+
+.block_why_are_we_p {
+  margin-bottom: 80px;
+}
+
+.why_different {
+  background-color: #e9e9f2;
+  height: 580px;
+}
+
+#ships {
+  box-sizing: border-box;
+  height: 177%;
+  width: 1338px;
+  position: absolute;
+  z-index: 1;
+}
+
+.ships_h2 {
+  padding: 120px 0 0;
+  text-align: center;
+  margin: 0px 0 120px 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.muovi_clouds_and_h3 {
+  align-items: center;
+  padding-left: 100px;
+}
+
+.muovi_block:last-child {
+  display: flex;
+}
+
+.cloud_gray {
+  margin: -5px 0 0 47px;
+}
+
+.cloud_blue {
+  padding-left: 20px;
+  position: absolute;
+}
+
+.muovi_clouds_h3 {
+  padding-left: 120px;
+  margin-top: -9px;
+}
+
+.muovi_clouds_p {
+  text-align: justify;
+  line-height: 27px;
+}
+
+.muovi_clouds_p_div {
+  padding: 35px 45% 0 131px;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .pages p:hover {
+  color: red;
+} */
+
+.pages p {
+  margin: 15px;
+  border-radius: 100px;
+  width: 45px;
+  height: 45px;
+  background-color: rgb(205, 200, 231);
+}
+
+#background {
+  margin-bottom: 140px;
+  height: 327px;
+  position: absolute;
+}
+
+.registration {
+  justify-content: center;
+  padding-top: 208px;
+}
+
+.title_form {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.r_form {
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+}
+
+#get {
+  text-align-last: center;
+  padding-top: 50px;
+  margin-bottom: 80px;
+}
+
+#r_email {
+  height: 45px;
+  width: 362px;
+  border: 1px solid #79818d;
+}
+
+#r_submit {
+  width: 100px;
+  height: 45px;
+  color: #fff;
+  background-color: green;
+  text-transform: uppercase;
+}
+
+#r_email {
+  background-image: url(file:///C:/%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8%20%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE%20%D1%81%D1%82%D0%BE%D0%BB%D0%B0/my_projects/htank_app_from_Igor/img/icon_leter.png);
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+}
+
+.footer_menu_all {
+  display: flex;
+  background-color: #efefef;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.f_logo {
+  padding-left: 100px;
+}
+
+.footer_nav {
+  display: flex;
+  padding-left: 50px;
+}
+
+.footer__menu:hover {
+  color: #4d99cf;
+}
+
+.footer__menu {
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  margin: 0 0px 0 25px;
+  color: #79818d;
+  transition: 0.2s linear;
+}
+
+.logo_link {
+  padding-left: 30px;
+}
