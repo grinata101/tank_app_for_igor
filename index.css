@@ -10,8 +10,7 @@ a:active {
 
 nav,
 footer,
-header,
-aside {
+header {
   display: block;
 }
 
@@ -28,11 +27,11 @@ body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
+  font-size: 23px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 /* наследование шрифта */
@@ -92,6 +91,8 @@ h4 {
 
 p {
   color: #515c71;
+  font-size: 23px;
+  line-height: 30px;
 }
 
 .header_menu_all {
@@ -105,7 +106,7 @@ p {
 
 .nav {
   display: flex;
-  font-size: 16px;
+  font-size: 23px;
 }
 
 .nav__menu {
@@ -119,17 +120,28 @@ p {
 
 .nav__menu:hover {
   color: #4d99cf;
+  text-decoration: underline;
+}
+
+.main {
+  box-sizing: border-box;
+
 }
 
 .baner {
   background-color: #65a9d8;
-  height: 661px
+  height: 834px
+}
+
+.baner_text_form {
+  padding-left: 150px;
 }
 
 h1.baner_title_h1,
 #baner_title_p,
 .b_form {
   color: #ffff;
+  margin-bottom: 55px;
 }
 
 .baner_title_h1 {
@@ -138,29 +150,32 @@ h1.baner_title_h1,
   padding: 139px 0 0 135px;
   font-size: 55px;
   line-height: initial;
+  z-index: 1;
 }
 
 #baner_title_p {
   position: absolute;
-  padding: 316px 0 0 138px;
-  font-size: 23px;
+  padding: 337px 0 0 138px;
+  font-size: 25px;
+  z-index: 1;
 }
 
 .baner_text {
   position: absolute;
   padding: 408px 0 0 138px;
-  font-size: 20px;
+  font-size: 23px;
+  margin: 31px 0;
+  z-index: 1;
 }
 
 .b_form {
-  padding: 0 0 30px 0;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 #email {
   border-style: none;
   border-radius: 5px;
-  padding: 8px 54px;
+  padding: 15px 160px;
   font-size: 15px;
   line-height: 2;
   margin: 0px 42px 0 0;
@@ -169,17 +184,22 @@ h1.baner_title_h1,
 #submit {
   color: white;
   background-color: #77c344;
-  padding: 5px 40px 10px 40px;
+  padding: 13px 100px 18px 100px;
   border-radius: 5px;
   border-style: none;
   font-size: 23px;
 }
 
+#submit:hover {
+  background-color: #356813;
+}
+
 .phone {
-  height: 820px;
+  height: 1050px;
+  /* height: 820px; */
   position: absolute;
-  padding: 37px 0px 0 392px;
-      z-index: 1;
+  top: 53px;
+  right: 50px;
 }
 
 .cloud1 {
@@ -207,7 +227,6 @@ h1.baner_title_h1,
   left: 85%;
 }
 
-
 .cloud4 {
   height: auto;
   width: 35px;
@@ -227,60 +246,73 @@ h1.baner_title_h1,
   padding: 15px;
 }
 
-.why_are_we_h2 {
+.list {
+display: flex;
+}
+/* hjhj */
+
+.div_notebook {
+  background-image: url(img/macbook2.png);
+    background-repeat: no-repeat;
+    background-position: right 300px;
+    /* height: 100hv; */
+    /* position: relative; */
+    /* left: 0px; */
+    margin-bottom: 158px;
+}
+
+.macbook {
+  float: right;
+  background-size: 867px auto;
+}
+
+.section_h2 {
   text-align: center;
-  padding: 62px 0 62px 0;
+  padding: 125px 0 125px 0;
   font-size: 30px;
   text-transform: uppercase;
 }
 
 .small_pikcher {
-  display: flex;
-  align-items: center;
-  padding: 20px 0 0 50px;
+    padding: 20px 0 0 50px;
+    vertical-align: middle;
+}
+
+.pikcher {
+  padding-left: 42px;
+  vertical-align: middle;
+  height: 62px;
 }
 
 .pikcher_name {
   padding: 0 0 0 20px;
+  font-size: 25px;
+    display: inline;
+    line-height: initial;
 }
 
-.why_are_we_p {
+.section_p {
   padding-left: 40px;
   text-align: justify;
-  line-height: 20px;
   max-width: 50%;
+  font-size: 23px;
+  line-height: 30px;
 }
 
-.why_are_we_p:not(:last-child) {
-  padding-bottom: 10px;
-}
-
-.div_notebook {
-  position: relative;
-}
-
-.notebook {
-  position: absolute;
-  width: 50%;
-  left: 50%;
-  top: -605px;
-}
-
-.block_why_are_we_p {
-  margin-bottom: 80px;
+.section_p_style {
+  margin-bottom: 70px;
 }
 
 .why_different {
+  height: auto;
+  background-image: url(/img/background_with.sheeps.png);
   background-color: #e9e9f2;
-  height: 580px;
+  background-repeat: no-repeat;
+  background-position: right top;
 }
 
-#ships {
-  box-sizing: border-box;
-  height: 177%;
-  width: 1338px;
-  position: absolute;
-  z-index: 1;
+.block_section_p {
+  margin-bottom: 80px;
 }
 
 .ships_h2 {
@@ -288,16 +320,11 @@ h1.baner_title_h1,
   text-align: center;
   margin: 0px 0 120px 0;
   font-size: 30px;
-  text-transform: uppercase;
 }
 
 .muovi_clouds_and_h3 {
   align-items: center;
   padding-left: 100px;
-}
-
-.muovi_block:last-child {
-  display: flex;
 }
 
 .cloud_gray {
@@ -312,39 +339,34 @@ h1.baner_title_h1,
 .muovi_clouds_h3 {
   padding-left: 120px;
   margin-top: -9px;
+  font-size: 25px;
 }
 
 .muovi_clouds_p {
   text-align: justify;
-  line-height: 27px;
+  font-size: 23px;
+  line-height: 30px;
 }
 
 .muovi_clouds_p_div {
-  padding: 35px 45% 0 131px;
+  padding: 35px 39% 60px 131px;
 }
 
-.pages {
+.slider {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-/* .pages p:hover {
-  color: red;
-} */
-
-.pages p {
-  margin: 15px;
+.slider-a {
+  margin: 15px 15px 150px 15px;
   border-radius: 100px;
-  width: 45px;
-  height: 45px;
+  text-align: center;
+  padding-top: 28px;
+  width: 80px;
+  height: 80px;
+  color: #fff;
   background-color: rgb(205, 200, 231);
-}
-
-#background {
-  margin-bottom: 140px;
-  height: 327px;
-  position: absolute;
 }
 
 .registration {
@@ -361,7 +383,7 @@ h1.baner_title_h1,
 .r_form {
   justify-content: center;
   display: flex;
-  font-size: 20px;
+  font-size: 23px;
 }
 
 #get {
@@ -372,34 +394,40 @@ h1.baner_title_h1,
 
 #r_email {
   height: 45px;
-  width: 362px;
   border: 1px solid #79818d;
+  padding: 32px;
+  width: 500px;
 }
 
 #r_submit {
-  width: 100px;
-  height: 45px;
   color: #fff;
-  background-color: green;
+  padding: 26px 90px 25px 95px;
+  background-color: #77c344;
   text-transform: uppercase;
 }
 
+#r_submit:hover {
+  background-color: #356813;
+}
+
 #r_email {
-  background-image: url(file:///C:/%D0%9D%D0%B0%D1%82%D0%B0%D0%BB%D1%8C%D1%8F%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8%20%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE%20%D1%81%D1%82%D0%BE%D0%BB%D0%B0/my_projects/htank_app_from_Igor/img/icon_leter.png);
+  background-image: url(/img/icon_leter.png);
   background-repeat: no-repeat;
-  background-position: 10px 50%;
+  background-position: 30px 50%;
+  padding: 33px 24px;
 }
 
 .footer_menu_all {
   display: flex;
   background-color: #efefef;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   height: 60px;
 }
 
 .f_logo {
   padding-left: 100px;
+  margin-right: 315px;
 }
 
 .footer_nav {
@@ -415,11 +443,13 @@ h1.baner_title_h1,
   list-style: none;
   text-decoration: none;
   justify-content: space-between;
-  margin: 0 0px 0 25px;
+  margin: 0 35px 0 25px;
+  font-size: 23px;
   color: #79818d;
   transition: 0.2s linear;
 }
 
 .logo_link {
-  padding-left: 30px;
+  padding-left: 100px;
+  background-size: 867px auto;
 }
