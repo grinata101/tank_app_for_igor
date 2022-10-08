@@ -27,7 +27,6 @@ body {
   width: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 23px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -91,14 +90,14 @@ h4 {
 
 p {
   color: #515c71;
-  font-size: 23px;
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .header_menu_all {
   display: flex;
   background-color: white;
-  margin: 0 95px 0px 95px;
+  margin: 0 172px 0px 95px;
   justify-content: space-between;
   align-items: center;
   height: 60px;
@@ -125,16 +124,11 @@ p {
 
 .main {
   box-sizing: border-box;
-
 }
 
 .baner {
   background-color: #65a9d8;
-  height: 834px
-}
-
-.baner_text_form {
-  padding-left: 150px;
+  height: 661px
 }
 
 h1.baner_title_h1,
@@ -148,34 +142,35 @@ h1.baner_title_h1,
   text-transform: uppercase;
   position: absolute;
   padding: 139px 0 0 135px;
-  font-size: 55px;
+  font-size: 50px;
   line-height: initial;
   z-index: 1;
 }
 
 #baner_title_p {
   position: absolute;
-  padding: 337px 0 0 138px;
-  font-size: 25px;
+  padding: 295px 0 0 138px;
+  font-size: 23px;
   z-index: 1;
 }
 
 .baner_text {
   position: absolute;
-  padding: 408px 0 0 138px;
-  font-size: 23px;
-  margin: 31px 0;
+  padding: 310px 0 0 138px;
+  font-size: 20px;
+  margin: 55px 0;
   z-index: 1;
 }
 
 .b_form {
-  font-size: 23px;
+  font-size: 20px;
+  margin-bottom: 25px;
 }
 
 #email {
   border-style: none;
   border-radius: 5px;
-  padding: 15px 160px;
+  padding: 8px 54px;
   font-size: 15px;
   line-height: 2;
   margin: 0px 42px 0 0;
@@ -184,10 +179,11 @@ h1.baner_title_h1,
 #submit {
   color: white;
   background-color: #77c344;
-  padding: 13px 100px 18px 100px;
+  padding: 12px 40px 12px 40px;
   border-radius: 5px;
   border-style: none;
-  font-size: 23px;
+  font-size: 16px;
+  text-align: center;
 }
 
 #submit:hover {
@@ -195,11 +191,10 @@ h1.baner_title_h1,
 }
 
 .phone {
-  height: 1050px;
-  /* height: 820px; */
+  height: 820px;
   position: absolute;
   top: 53px;
-  right: 50px;
+  right: 0px;
 }
 
 .cloud1 {
@@ -223,14 +218,14 @@ h1.baner_title_h1,
   opacity: 0.7;
   background-position: right top;
   position: absolute;
-  top: 364px;
+  top: 300px;
   left: 85%;
 }
 
 .cloud4 {
   height: auto;
   width: 35px;
-  margin: 635px 0px 0 179px;
+  margin: 599px 0px 0 150px;
   position: absolute;
 }
 
@@ -238,7 +233,7 @@ h1.baner_title_h1,
   display: flex;
   height: 80px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   background-color: #efefef;
 }
 
@@ -249,26 +244,22 @@ h1.baner_title_h1,
 .list {
 display: flex;
 }
-/* hjhj */
 
 .div_notebook {
   background-image: url(img/macbook2.png);
     background-repeat: no-repeat;
-    background-position: right 300px;
-    /* height: 100hv; */
-    /* position: relative; */
-    /* left: 0px; */
-    margin-bottom: 158px;
+    background-position: right 155px;
+    margin-bottom: 80px;
 }
 
 .macbook {
   float: right;
-  background-size: 867px auto;
+  background-size: 700px auto;
 }
 
 .section_h2 {
   text-align: center;
-  padding: 125px 0 125px 0;
+  padding: 62px 0 62px 0;
   font-size: 30px;
   text-transform: uppercase;
 }
@@ -281,22 +272,21 @@ display: flex;
 .pikcher {
   padding-left: 42px;
   vertical-align: middle;
-  height: 62px;
+  height: 40px;
 }
 
 .pikcher_name {
   padding: 0 0 0 20px;
-  font-size: 25px;
+  font-size: 20px;
     display: inline;
     line-height: initial;
 }
 
 .section_p {
   padding-left: 40px;
-  text-align: justify;
-  max-width: 50%;
-  font-size: 23px;
-  line-height: 30px;
+  max-width: 43%;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .section_p_style {
@@ -305,7 +295,7 @@ display: flex;
 
 .why_different {
   height: auto;
-  background-image: url(/img/background_with.sheeps.png);
+  background-image: url(img/background_with.sheeps.png);
   background-color: #e9e9f2;
   background-repeat: no-repeat;
   background-position: right top;
@@ -339,12 +329,11 @@ display: flex;
 .muovi_clouds_h3 {
   padding-left: 120px;
   margin-top: -9px;
-  font-size: 25px;
 }
 
 .muovi_clouds_p {
   text-align: justify;
-  font-size: 23px;
+  font-size: 16px;
   line-height: 30px;
 }
 
@@ -363,10 +352,18 @@ display: flex;
   border-radius: 100px;
   text-align: center;
   padding-top: 28px;
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  font-size: 16px;
+  color: #ccc;
+  /* color: #fff; */
+  /* background-color: rgb(205, 200, 231); */
+}
+
+.slider-a:hover {
+  background-color: #64a4d7;
   color: #fff;
-  background-color: rgb(205, 200, 231);
+  /* color: #4d99cf; */
 }
 
 .registration {
@@ -383,7 +380,7 @@ display: flex;
 .r_form {
   justify-content: center;
   display: flex;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 #get {
@@ -411,7 +408,7 @@ display: flex;
 }
 
 #r_email {
-  background-image: url(/img/icon_leter.png);
+  background-image: url(img/icon_leter.png);
   background-repeat: no-repeat;
   background-position: 30px 50%;
   padding: 33px 24px;
@@ -420,19 +417,28 @@ display: flex;
 .footer_menu_all {
   display: flex;
   background-color: #efefef;
-  /* justify-content: space-between; */
+  justify-content: inherit;
   align-items: center;
   height: 60px;
 }
 
 .f_logo {
-  padding-left: 100px;
-  margin-right: 315px;
+  padding-left: 120px;
+  margin-right: 240px;
 }
 
 .footer_nav {
+  list-style: none;
+  text-decoration: none;
   display: flex;
-  padding-left: 50px;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #79818d;
+  transition: 0.2s linear;
+}
+
+ ul li a .footer__menu:not(:last-child) {
+  margin-right: 0px;
 }
 
 .footer__menu:hover {
@@ -443,13 +449,14 @@ display: flex;
   list-style: none;
   text-decoration: none;
   justify-content: space-between;
-  margin: 0 35px 0 25px;
-  font-size: 23px;
+  margin-right: 35px;
+  font-size: 16px;
+
   color: #79818d;
   transition: 0.2s linear;
 }
 
 .logo_link {
-  padding-left: 100px;
-  background-size: 867px auto;
+  padding-left: 40px;
+  margin-right: 10px;
 }
